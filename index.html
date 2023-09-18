@@ -1,209 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>GOODCAR</title>
 </head>
 <body>
-    <header class="header">
+  <header class="header">
+    <div class="header__content">
+      <div class="top-bar">
         <div class="container">
-        <div class="header-content">
-            <a class="header-link link" href="index.html">
-                <span class="header-logo-left">GOOD</span>
-                <span class="header-logo-left">CAR</span>
-                <img src="./images/авто с шестерней.png" alt="logo service car" width="50">
+          <div class="top-bar__content">
+            <a href="#" class="logo">
+              <span class="logo__title">GOODCAR</span>
+              <img src="./images/logo-img.png" alt="car" class="logo__img">
             </a>
-            <nav>
-                <ul class="header-nav-list list">
-                    <li class="header-item-list">
-                        <a class="header-link current link" href="./index.html">Переваги</a>
-                    </li>
-                    <li class="header-item-list">
-                        <a class="header-link link" href="./index.html">Гарантії</a>
-                    </li>
-                    <li class="header-item-list">
-                        <a class="header-link  link" href="./index.html">Послуги</a>
-                    </li>
-                    <li class="header-item-list">
-                        <a class="header-link link" href="./our_us.html">Про нас</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-            <div class="header-contact">
-                <a class="header-tel link" href="тел:+380672779095">
-                    <svg class="header-icon" width="10" height="16">
-                        <use href="./image/icons.svg#icon-smartphone-1"></use>
-                    </svg>
-                    +38 067 277 90 95
-                </a>
+            <div class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Переваги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Гарантії</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Послуги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Про нас</a>
+                </li>
+              </ul>
             </div>
-            <div class="header-soc-section">
-                <h3 class="header-title"></h3>
-                
-                <ul class="header-soc-list list">
-                    <li class="header-soc-item">
-                        <a href="" class="header-soc-link link">
-                            <svg class="header-soc-icon" width="20" height="20">
-                                <use href="./image/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-soc-item">
-                        <a href="" class="header-soc-link link">
-                            <svg class="header-soc-icon" width="20" height="20">
-                                <use href="./image/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="top-bar__icons">
+              <a href="tel:+380672779095" class="top-bar__phone">
+                <span href="tel:+380672779095" class="top-bar__phone-img"></span>
+                <span href="tel:+380672779095" class="top-bar__phone-text">+380672779095</span>
+              </a>
+              <!-- <a href="#" class="top-bar__instagram"></a> -->
+              <!-- <a href="#" class="top-bar__facebook"></a> -->
+              <a href="#menu" class="burger"></a>
             </div>
+          </div>
         </div>
-        </div>
-        
-    </header>
-    <main>
-        <section class="hero-pretitle">
-            <div class="container">
-                <div class="hero-content-container">
-                <div class="hero-text-content">
-                    <h1 class="hero-title">Кваліфікований та своєчасний сервіс авто - головна умова експлуатації без проблем та неприємних сюрпризів у дорозі</h1>
-                </div>    
-                <div class="hero-content">
-                    <h2 class="hero-text">Твій автосервіс</h2>
-                    <ul class="hero-content-list list">
-                        <li class="hero-content-item">
-                            <img class="hero-item-icon" src="/images/техник.png" alt="logo-wheel-diagnostic">
-                            <a href="" class="hero-content-link link">Команда на яку ви можете розраховувати</a>
-                        </li>
-                        <li class="hero-content-item">
-                            <img class="hero-item-icon" src="./images/цена.png" alt="logo-wheel-service">
-                            <a href="" class="hero-content-link link">Ціна який ви можете довіряти</a>
-                        </li>
-                        <li class="hero-content-item">
-                            <img class="hero-item-icon" src="./images/запись.png" alt="logo-computer-service">
-                            <a href="" class="hero-content-link link">Дотримання термінів ремонту</a>
-                        </li>
-                        <li class="hero-content-item">
-                            <img class="hero-item-icon" src="/images/авто с шестерней.png" alt="logo-electric">
-                            <a href="" class="hero-content-link link">Якісний ремонт</a>
-                        </li>
-                    </ul>
-                </div>
+      </div>
+      <div class="description">
+        <div class="container">
+          <div class="description__content">
+            <div class="header__left">
+              <h1 class="header__title">
+                КВАЛІФІКОВАНИЙ ТА СВОЄЧАСНИЙ СЕРВІС АВТО - ГОЛОВНА УМОВА ЕКСПЛУАТАЦІЇ БЕЗ ПРОБЛЕМ ТА НЕПРИЄМНИХ СЮРПРИЗІВ У ДОРОЗІ
+              </h1>
+              <h2 class="header__subtitle">
+                Твій автосервіс
+              </h2>
+              <ul class="advantages">
+                <li class="advantages__item">
+                  Команда на яку ви можете розраховувати
+                </li>
+                <li class="advantages__item">
+                  Ціна який ви можете довіряти
+                </li>
+                <li class="advantages__item">
+                  Дотримання термінів ремонту
+                </li>
+                <li class="advantages__item">
+                  Якісний ремонт
+                </li>
+              </ul>
             </div>
+            <div class="header__right">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325516.56942115247!2d30.203039910760573!3d50.40200748976969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1690891669457!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
-        <section class="services-section">
-            <h2 class="services-title">Ціни на послуги</h2>
-            <ul class="service-list list">
-                <li class="services-content-item">
-                    <div class="dropdown-services-list" >
-                        <button class="service-list-button">Діагностика автомобіля</button>
-                        <div class="dropdown-list-child">
-                            <a>Діагностика кондиціонера (візуальний огляд)<p>368</p></a>
-                            <a>Діагностика системи електроживлення автомобіля<p>118</p></a>
-                            <a>Комплексна діагностика автомобіля (58 пунктів)<p>798</p></a>
-                            <a>Комп'ютерна діагностика<p>798</p></a>
-                            <a>Діагностика кондиціонера (візуальний огляд) <p>368</p></a>
-                        </div>
-                    </div>   
-                </li>
-                <li class="services-content-item">
-                    <div class="dropdown-services-list" >
-                        <button class="service-list-button">Заміна технічних рідин та фільтрів</button>
-                        <div class="dropdown-list-child">
-                            <a>Діагностика кондиціонера (візуальний огляд)<p>368</p></a>
-                            <a>Діагностика системи електроживлення автомобіля<p>118</p></a>
-                            <a>Комплексна діагностика автомобіля (58 пунктів)<p>798</p></a>
-                            <a>Комп'ютерна діагностика<p>798</p></a>
-                            <a>Діагностика кондиціонера (візуальний огляд) <p>368</p></a>
-                        </div>
-                    </div>   
-                
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Гальмівна система</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Рульове управління</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Ходова частина</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Паливна система</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Система зчеплення</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">ГРМ</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Заміна сервісних ременів</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Система зчеплення</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Система охолодження</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link">Автоелектрик</a>
-                </li>
-                <li class="services-content-item">
-                    <a href="" class="serces-content-link link"></a>
-                </li>
-            </ul>
-        </section>
-    </main>   
-    <footer class="footer-distributed">
-
-        <div class="footer-left">
-          <h3>Автосервіс<span>GOODCAR</span></h3>
+          </div>
         </div>
-  
-        <div class="footer-center">
-  
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>вул. Шкільна 1в</span> Софіївська Борщагівка</p>
+      </div>
+    </div>
+  </header>
+  <aside class="menu" id="menu">
+    <div class="menu__content">
+      <div class="top-bar">
+        <div class="container">
+          <div class="top-bar__content">
+            <a href="#" class="logo">
+              <span class="logo__title">GOODCAR</span>
+              <img src="./images/logo-img.png" alt="car" class="logo__img">
+            </a>
+            <div class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Переваги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Гарантії</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Послуги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Про нас</a>
+                </li>
+              </ul>
+            </div>
+            <div class="top-bar__icons">
+              <a href="#page" class="menu__cross"></a>
+            </div>
           </div>
-  
-          <div>
-            <i class="fa fa-phone"></i>
-            <p>+38 067 277 90 95</p>
-          </div>
-  
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">support@goodcar.com</a></p>
-          </div>
-  
         </div>
-  
-        <div class="footer-right">
-  
-          <p class="footer-company-about">
-            <span>Про нас</span>
-            Кваліфікований та своєчасний сервіс авто - головна умова експлуатації без проблем та неприємних сюрпризів у дорозі.
-          </p>
-  
-          <div class="footer-icons">
-  
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-  
-          </div>
-  
+      </div>
+      <nav class="menu__nav">
+        <div class="container">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Переваги</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Гарантії</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Послуги</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Про нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="tel:+380672779095" class="menu__link menu__link--phone">
+                +380672779095
+              </a>
+            </li>
+          </ul>
         </div>
-  
-      </footer> 
+      </nav>
+    </div>
+  </aside>
+  <script src="./index.js"></script>
 </body>
 </html>
